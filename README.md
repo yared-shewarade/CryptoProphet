@@ -106,4 +106,5 @@ The project paper, **"CryptoProphet: Building a Cryptocurrency Portfolio App wit
 
 <a href="https://iscap.us/proceedings/2024/pdf/6133.pdf">
     <img src="https://www.iscap.us/assets/img/iscap-logo-2024.png" alt="ISCAP Logo" width="70" style="vertical-align:middle; margin-right:10px;">
-</a> ISCAP paper publication
+</a> <a href="https://link-to-iscap-publication">ISCAP paper publication</a>
+
