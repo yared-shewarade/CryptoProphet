@@ -102,7 +102,7 @@ CryptoProphet/
 
 The project paper, **"CryptoProphet: Building a Cryptocurrency Portfolio App with Integrated Market Predictive Models"**, has been presented and published at the **ISCAP Journals**
 
-[ISCAP paper publication](https://iscap.us/proceedings/2024/pdf/6133.pdf)
+<img src="https://www.iscap.us/assets/img/iscap-logo-2024.png" alt="ISCAP Logo" width="100"/>[ISCAP paper publication](https://iscap.us/proceedings/2024/pdf/6133.pdf)
 
 # 📖 Publication
 
@@ -115,4 +115,4 @@ The project paper, **"CryptoProphet: Building a Cryptocurrency Portfolio App wit
 
 The project paper, **"CryptoProphet: Building a Cryptocurrency Portfolio App with Integrated Market Predictive Models"**, has been published at the **ISCAP Conference**.
 
-<img src="https://www.iscap.us/assets/img/iscap-logo-2024.png" alt="ISCAP Logo" width="150"/>`
+<img src="https://www.iscap.us/assets/img/iscap-logo-2024.png" alt="ISCAP Logo" width="150"/>
