@@ -120,6 +120,20 @@ This design ensures an end-to-end solution, from data processing to a user-frien
 
 [Watch Demo Video of the App](./CryptoProphet_Demo.mp4)
 
+
+## 🎥 Demo Video
+
+The following demo showcases the CryptoProphet app in action, including how it handles user inputs, real-time data fetching, and predictive modeling.
+
+<p align="center">
+  <video width="640" height="360" controls>
+    <source src="https://drive.google.com/uc?id=1AbCdEfGHIjKlmnOPqrStUvWXYz123456" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+[📥 Download the Video](https://drive.google.com/file/d/1zsSB-db6ec-ZJmlSocSQ9Neu3KH-j3nk/view?usp=drive_link)
+
 # 📖 Publication
 
 The project paper, **"CryptoProphet: Building a Cryptocurrency Portfolio App with Integrated Market Predictive Models"**, has been presented and published at the **ISCAP Conference Proceedings**
