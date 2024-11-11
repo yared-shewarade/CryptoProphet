@@ -196,3 +196,38 @@ The scripts and visualizations in this folder aim to:
 * Uncover patterns and trends in cryptocurrency data
 * Identify correlations and distributions for future selection
 * Generate actionable insights to guide model training and evaluation
+
+
+---
+
+
+
+# 🎥 Demo Video
+
+The following demo showcases the CryptoProphet app in action, including how it handles user inputs, real-time data fetching, and predictive modeling.
+
+<p align="center">
+  <video width="640" height="360" controls>
+    <source src="https://drive.google.com/uc?id=1AbCdEfGHIjKlmnOPqrStUvWXYz123456" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+[📥 Watch the Demo](https://drive.google.com/file/d/1zsSB-db6ec-ZJmlSocSQ9Neu3KH-j3nk/view?usp=drive_link) [Video](https://drive.google.com/file/d/1zsSB-db6ec-ZJmlSocSQ9Neu3KH-j3nk/view?usp=drive_link)
+
+# 📖 Publication
+
+The project paper, **"CryptoProphet: Building a Cryptocurrency Portfolio App with Integrated Market Predictive Models"**, has been presented and published at the **ISCAP Conference Proceedings**
+
+<a href="https://iscap.us/proceedings/2024/pdf/6133.pdf">
+    <img src="https://www.iscap.us/assets/img/iscap-logo-2024.png" alt="ISCAP Logo" width="70" style="vertical-align:middle; margin-right:10px;">
+    ISCAP Conference Proceedings
+</a>
+
+# **👤 Author**
+
+# **Yared Shewarade**
+
+* **Linkedin**: [yared-shewarade](https://www.linkedin.com/in/yared-shewarade-378aa414b/)
+
+- **Email**: [shewaradeyared@gmail.com](mailto:shewaradeyared@gmail.com)
