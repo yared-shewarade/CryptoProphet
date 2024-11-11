@@ -8,6 +8,8 @@ The **App** folder folder contains the source code for the **Mobile App** of **C
 
 # 📂 Directory Structure
 
+''' plaintext
+
 App/
 ├── App.js                         # Main entry point for the app
 ├── app.json                       # Configuration for the app
