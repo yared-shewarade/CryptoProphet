@@ -28,9 +28,28 @@ The correlation matrix shows the relationships between key features such as pric
 
 ![Correlation Matrix](../images/correlation_matrix.jpeg)
 
-3. **Model Performance Metrics**
+3. **Lookback Period Selection**
 
-The performance of LSTM, GRU, and Bi-LSTM models was evaluated across all 30 cryptocurrencies. The table below highlights key metrics like MAE, MSE, RMSE, MAPE (%), and R² for each crypto and model type.
+The lookback period (number of lag intervals) was analyzed to optimize the model's predictive accuracy. The plots below show how performance metrics (MSE, MAE, RMSE, and R²) vary across lag intervals from 1 to 30 days.
+
+![Lag Interval for Lookback Period](../images/lookback_selection_plots.jpeg)
+
+### **Key Observations**
+
+1. **Improvement Over Shorter Lags**:
+
+   - Metrics like **MSE** and **RMSE** decrease with increasing lag intervals, indicating better model performance with longer lookbacks.
+   - R² improves significantly as the lag interval increases up to 30 days.
+2. **Optimal Lookback Period**:
+
+   - A 30-day lookback period was selected as the optimal interval based on:
+     - The lowest **MSE** and **RMSE** values.
+     - The highest **R²** values, reflecting a better fit to the data.
+3. **Trade-Off**:
+
+   - While longer lookbacks improve accuracy, they also increase computational complexity. A balance was struck to maintain efficiency.
+
+The 30-day lookback period was implemented for all models and cryptocurrencies.
 
 ![Model Performance](../images/model_performance_metrics.jpeg)
 
