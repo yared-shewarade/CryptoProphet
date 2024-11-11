@@ -32,7 +32,7 @@ The correlation matrix shows the relationships between key features such as pric
 
 The lookback period (number of lag intervals) was analyzed to optimize the model's predictive accuracy. The plots below show how performance metrics (MSE, MAE, RMSE, and R²) vary across lag intervals from 1 to 30 days.
 
-![Lag Interval for Lookback Period](../images/lookback_selection_plots.jpeg)
+![Lag Interval for Lookback Period](../images/lookback selection plots.jpeg)
 
 ### **Key Observations**
 
