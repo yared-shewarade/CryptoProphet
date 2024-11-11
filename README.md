@@ -132,7 +132,7 @@ The following demo showcases the CryptoProphet app in action, including how it h
   </video>
 </p>
 
-[📥 Download the Video](https://drive.google.com/file/d/1zsSB-db6ec-ZJmlSocSQ9Neu3KH-j3nk/view?usp=drive_link)
+[📥 Watch the Demo](https://drive.google.com/file/d/1zsSB-db6ec-ZJmlSocSQ9Neu3KH-j3nk/view?usp=drive_link) [Video](https://drive.google.com/file/d/1zsSB-db6ec-ZJmlSocSQ9Neu3KH-j3nk/view?usp=drive_link)
 
 # 📖 Publication
 
