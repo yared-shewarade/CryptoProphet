@@ -57,9 +57,13 @@ The performance of different machine learning models (LSTM, GRU, Bi-LSTM) was ev
 Below is an example of actual vs. predicted price plots for selected cryptocurrencies, showcasing how closely the models predicted future values.
 
 ![Actual vs Predicted Price - BTC](../images/Bitcoin(BTC).jpeg)
+
 ![Actual vs Predicted Price - CRO](../images/Cronos(CRO).jpeg)
-![Actual vs Predicted Price - FTM](../images/FantomFTM).jpeg)
+
+![Actual vs Predicted Price - FTM](../images/Fantom(FTM).jpeg)
+
 ![Actual vs Predicted Price - XLM](../images/Solana(SOL).jpeg)
+
 ![Actual vs Predicted Price - SOL](../images/Stellar(XLM).jpeg)
 
 ### **Key Observations**
