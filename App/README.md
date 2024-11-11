@@ -76,12 +76,12 @@ App/
    cd backend
 2. Create and activate a Python virtual environment:
 
-   On macOS/Linux:
+   a) On macOS/Linux:
 
    python3 -m venv crypto_venv
    source crypto_venv/bin/activate
 
-   On Windows:
+   b) On Windows:
 
    python -m venv crypto_venv
    crypto_venv\Scripts\activate
@@ -109,3 +109,54 @@ App/
 **Note**: The Model is trained and saved in the **all_models/** folder, and the preprocessing scalers saved in the **all_scaler/** folder. However if you want to retrain the machine learning models from scratch (e.g, with updated data), run the following python scripts:
 
 python train_models.py
+
+# 🌐 APIs Used
+
+### CoinGecko API:
+
+* Provides real-time cryptocurrency prices.
+* Intgrated via coinGeckoService.js
+
+# 🛠 Technologies Used
+
+* ##### Frontend:
+
+
+  - React Native
+  - Expo
+* Backend:
+
+  - Flask
+  - TensorFlow/Keras/Sci-learn
+* APIs:
+
+  - CoinGecko API for live price data
+
+# 📜 Troubleshooting
+
+Common Issues:
+
+1. Port Conflicts:
+
+   - Ensure no other services are using ports 3000 (Reactive Native) or 5000 (Flask API) or change the ports numbers
+2. dependency Issues:
+
+   - Reinstall dependencies:
+
+   npm install
+   pip install -r requirements.txt
+3. API Connectivity:
+
+   - Verify the CoinGecko API is accessible and the Flask API is running.
+
+# ⚡ Key Scripts
+
+1. Start the App:
+
+   npm start
+2. Start the Flask API:
+
+   python app.py
+3. Train Models (Optional):
+
+   python train_models.py
