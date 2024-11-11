@@ -22,17 +22,31 @@ Lag plots were created to identify temporal dependencies in the data. Below is a
 
 ![Lag Plots](../images/lag_plots.jpeg)
 
+###### Interpretation:
+
+These lag plots show the dependecy of cryptocurrency prices on their past values. The strong linear correlation in the 1-day lag indicates that recent prices are highly predictive of near-term movements, which aligns with short-term focus of models like GRU. The 1-week lag movements, which trends can still inform predictions, while the 1-month lag shows dimishing predictablity. These insights informed our feature engineering process, ensuring our models captured the most relevant dependencies for accurate predictions.
+
+**Note**:- The lag plots provide a snapshot of the relationships between cryptocurrency prices and their past values at different intervals. The 1-day lag shows a strong correlation, indicating that near-term trends are stable. The scatter in the 1-month lag, however, reflects the compecity of long-term price movements. To handle this, the models don't rely on a single lag but instead learn from a sequence of daily data spanning the last month. This enables the models to identiffy cummulative patterns and undelying trends that are not immediately obvious in individual lag correlations.
+
 2. **Correlation Matrix**
 
 The correlation matrix shows the relationships between key features such as prices, volumes, and market capitalization across different cryptocurrencies. Strong correlations between certain variables guided feature selection for the predictive models.
 
 ![Correlation Matrix](../images/correlation_matrix.jpeg)
 
+###### Interpretation:
+
+This correlation matrix reveals how the prices of 30 cryptocurrencies are related. Strong correlations, like those between BTC and ETH, indicate shared market trends, while weaker or negative correlations suggest more independent price movements. These insights are critical for both investors and our IMS Strategy, ensuring that the app's predictions are tailored to the unique behavior of each cryptocurrency while leveraging relationships where they exist.
+
 3. **Lookback Period Selection**
 
 The lookback period (number of lag intervals) was analyzed to optimize the model's predictive accuracy. The plots below show how performance metrics (MSE, MAE, RMSE, and R²) vary across lag intervals from 1 to 30 days.
 
 ![Lag Interval for Lookback Period](../images/lookback_selection_plots.jpeg)
+
+###### Interpretation:
+
+These charts compare the performance of our predictive models using different lag intervals. As shown, a 30-day lag consistently leads to better performance across all metrics (MSE, MAE, RMSE, and R²). This highlights the importance of leveraging longer historical data for prediction while avoiding over-complication. By integrating this into the IMS Stategy, we ensure that each model is optimized for its specific cryptocurrency.
 
 ### **Key Observations**
 
@@ -57,17 +71,47 @@ The 30-day lookback period was implemented for all models and cryptocurrencies.
 
 ![3D Scatter Plots](../images/3d_scatter_plots.jpeg)
 
+###### Interpretation:
+
+This 3D scatter plot illustrates the relationships between Volume, Market Cap, and Price for Bitcoin and Ethereum. For Bitcoin, we see a strong and predictable correlation, indicating a structured market relationship. for Ethereum, the data is more scattered, refecting its dynamic and diverse market factors. These insights validate the importance of including Volume and Market Cap as features in our predictive models, and they also highlight IMS Strategy us essential for tailoring predictions to the unique characteristics of each cryptocurrency.
+
 5. **Cryptocurrency Selection**
 
 The 30 selected cryptocurrencies were chosen based on criteria such as market capitalization, data availability, and trading volume. Below is a table summarizing the selected cryptos.
 
 ![Cryptocurrency Selection](../images/crypto_selection_table.jpeg)
 
+###### Interpretation:
+
+This table highlights the 30 cryptocurrencies included in the CryptoProphet project. They were selected to represent a diverse cross-section of the market, ranging from dominant assets like Bitcoin and Ethereum to emerging coins liike Render and Quant. The dta availability plays a key role i training time-series models. These differences underline the importnace of the IMS Strategy, ensuring that each asset is paired with the best-performing predictive model tailored to its unique characteristics.
+
+High market cap and dominance crypto are less volatile compared to smaller crypto (BTC, ETH), while smaller market cap and dominance more volatility and higher risk (XTZ, BAT).
+
+The number of observation can directly impact the accuracy of the training model. Newer crypto with fewer observation might need more sophosticated algorithms to achieve comparable predictive performance.
+
+Some of the categories for the selection of 30 cryptos are:
+
+* High market Capitalization
+* Medium Market Capitalization
+* Low Market Capitalization
+* History of Launch
+* Market Dominance
+* Memes Coins
+* Metaverse
+* Gaming
+* AI Crypto
+* Smart Contracts
+* Privacy Coins
+
 6. **Model Performance Metrics**
 
 The performance of different machine learning models (LSTM, GRU, Bi-LSTM) was evaluated across the selected 30 cryptocurrencies. The table below highlights key metrics like **Mean Absolute Error (MAE)**, **Mean Squared Error (MSE)**, **Root Mean Squared Error (RMSE)**, **Mean Absolute Percentage Error (MAPE %)**, and **R² Score**.
 
 ![Model Performance Metrics](../images/model_performance_table.jpeg)
+
+###### Interpretation:
+
+This table provides the foundation for the Individualized Model Slection (IMS) Strategy. By evaluating each cryptocurrency using key metrics like MAE, MSE, RMSE, MAPE, and R², the most suitable model was identifiied for each asset. For instance, GRU was chosen for BTC due to its high R² and low RMSE, while Bi-LSTM was better for LTC, and LSTM excelled for BAT. This tailored approach ensures that CryptoProphet delivers accurate and reliable predictions for a wide range of cryptocurrecncies, enhancing both user confidence and app utility.
 
 7. **Actual vs Predicted Price**
 

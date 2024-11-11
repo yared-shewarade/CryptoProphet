@@ -128,3 +128,11 @@ The project paper, **"CryptoProphet: Building a Cryptocurrency Portfolio App wit
     <img src="https://www.iscap.us/assets/img/iscap-logo-2024.png" alt="ISCAP Logo" width="70" style="vertical-align:middle; margin-right:10px;">
     ISCAP Conference Proceedings
 </a>
+
+
+# **👤 Author**
+
+# **Yared Shewarade**
+
+* [LinkedIn](https://www.linkedin.com/in/yared-shewarade-378aa414b/)
+* [Email](yared.shewarade@gmail.com)
