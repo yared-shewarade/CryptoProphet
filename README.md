@@ -134,5 +134,6 @@ The project paper, **"CryptoProphet: Building a Cryptocurrency Portfolio App wit
 
 # **Yared Shewarade**
 
-* [LinkedIn](https://www.linkedin.com/in/yared-shewarade-378aa414b/)
-* [Email](yared.shewarade@gmail.com)
+* **Linkedin**: [yared-shewarade](https://www.linkedin.com/in/yared-shewarade-378aa414b/)
+
+- **Email**: [shewaradeyared@gmail.com](mailto:shewaradeyared@gmail.com)
