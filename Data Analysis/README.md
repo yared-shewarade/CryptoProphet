@@ -32,7 +32,7 @@ The correlation matrix shows the relationships between key features such as pric
 
 The lookback period (number of lag intervals) was analyzed to optimize the model's predictive accuracy. The plots below show how performance metrics (MSE, MAE, RMSE, and R²) vary across lag intervals from 1 to 30 days.
 
-![Lag Interval for Lookback Period](../images/lookback selection plots.jpeg)
+![Lag Interval for Lookback Period](../images/lookback_selection_plots.jpeg)
 
 ### **Key Observations**
 
@@ -50,8 +50,6 @@ The lookback period (number of lag intervals) was analyzed to optimize the model
    - While longer lookbacks improve accuracy, they also increase computational complexity. A balance was struck to maintain efficiency.
 
 The 30-day lookback period was implemented for all models and cryptocurrencies.
-
-![Model Performance](../images/model_performance_metrics.jpeg)
 
 4. 3D Scatter Plots**
 
