@@ -1,6 +1,6 @@
 # 📱 CryptoProphet: Mobile App
 
-# Building a Cryptocurrency Portfolio App with Integrated Crypto Market Predictive Models
+## A cryptocurrency portfolio management app with predictive market models.
 
 # 📘 Overview
 
