@@ -116,12 +116,7 @@ This design ensures an end-to-end solution, from data processing to a user-frien
   - For generating statistical visualizations like histograms and heatmaps.
 - **Jupyter Notebooks**: For data explanation and model evaluation
 
-# **🎥 Video Demo**
-
-[Watch Demo Video of the App](./CryptoProphet_Demo.mp4)
-
-
-## 🎥 Demo Video
+# 🎥 Demo Video
 
 The following demo showcases the CryptoProphet app in action, including how it handles user inputs, real-time data fetching, and predictive modeling.
 
