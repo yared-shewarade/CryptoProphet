@@ -36,6 +36,44 @@ App/
 ├── README.md                      # Documentation for the App folder
 ```
 
+# **🔁 Interaction Flow Between Components**
+
+The diagram below illustrates the interaction between the **Frontend**, **Services**, and **Backend** components of the CryptoProphet application. Each component communicates seamlessly to provide real-time predictions and display relevant information to the user.
+
+![Interaction Flow Between Components](../images/component_interaction.jpeg)
+
+### **Component Overview**
+
+1. **Frontend**:
+
+   - Handles the user interface and user inputs.
+   - Components include:
+     - `App.js`: Main application entry point.
+     - `AssetInput.js`: Input for selecting a cryptocurrency.
+     - `PurchasedPriceInput.js`: Input for entering the purchased price.
+     - `QuantityInput.js`: Input for entering the purchased quantity.
+     - `CurrentPriceDisplay.js`: Displays real-time prices fetched from the API.
+     - `TotalValueDisplay.js`: Calculates and displays total portfolio value.
+     - `ProfitLossDisplay.js`: Displays profit or loss information.
+     - `ForecastDisplay.js`: Displays forecasted cryptocurrency prices.
+2. **Services**:
+
+   - Acts as a bridge between the frontend and backend.
+   - Components include:
+     - `coinGeckoService.js`: Fetches real-time cryptocurrency prices.
+     - `historicalDataService.js`: Retrieves historical data for analysis.
+     - `predictService.js`: Fetches model predictions from the backend.
+3. **Backend**:
+
+   - Processes the data and returns predictions to the frontend via APIs.
+   - Components include:
+     - `app.py`: Flask API for managing requests and responses.
+     - `all_models/`: Directory containing trained models (e.g., `BTC_model.h5`).
+     - `all_scalers/`: Directory containing scaling parameters (e.g., `BTC_scaler.pkl`).
+     - `train_models.py`: Script for training machine learning models.
+
+This flow ensures a robust and modular architecture, enabling seamless communication between all components.
+
 # 🚀 Features
 
 * **Portfolio Management**: Track your cryptocurrency assets, including purchased price, quantity, and total value.
