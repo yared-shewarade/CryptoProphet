@@ -29,6 +29,26 @@ CryptoProphet/
 ├── README.md                      # Main project documentation
 ```
 
+## **🎨 Design**
+
+The design of the CryptoProphet project involves a multi-step workflow, from data collection to real-time prediction via a mobile app. Below is an overview of the design pipeline:
+
+![Design Diagram](images/design_diagram.jpeg)
+
+### **Workflow Explanation**
+
+1. **Data Collection**: Data is gathered from various sources for 30 cryptocurrencies.
+2. **Data Cleaning and Preprocessing**: Cleaning and feature engineering are performed to prepare the data for model training.
+3. **Model Training**: Models like LSTM, GRU, and Bi-LSTM are trained to predict cryptocurrency prices.
+4. **Model Evaluation**: The performance of each model is evaluated using metrics such as MAE, MSE, RMSE, and R².
+5. **Best Model Selection**: The best model is chosen for each cryptocurrency based on its performance.
+6. **Mobile App Development**: The React Native mobile app enables users to interact with the predictions.
+7. **Trained Model Deployment**: The best models are deployed for real-time predictions.
+8. **Integration with Flask API**: Real-time predictions are provided to the app via Flask API.
+9. **User Input and Real-Time Data**: Users can input their crypto details, and the app fetches real-time data to display predictions.
+
+This design ensures an end-to-end solution, from data processing to a user-friendly app interface.
+
 ## 📂 Key Directories
 
 1. **[App](./App/README.md)**: Contains the source code for the React Native mobile app, backend Flask API, and reusable components.
@@ -108,5 +128,3 @@ The project paper, **"CryptoProphet: Building a Cryptocurrency Portfolio App wit
     <img src="https://www.iscap.us/assets/img/iscap-logo-2024.png" alt="ISCAP Logo" width="70" style="vertical-align:middle; margin-right:10px;">
     ISCAP Conference Proceedings
 </a>
-
-
